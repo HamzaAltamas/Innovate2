@@ -1,0 +1,150 @@
+.banner {
+  background-image: url(../Images/Header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0 500px 0;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.banner__cloud-1 {
+  position: absolute;
+  bottom: 0;
+  width: 120%;
+  z-index: 2;
+  bottom: -95px;
+  animation: cloud1 2s linear alternate infinite;
+  -webkit-animation: cloud1 2s linear alternate infinite;
+}
+@keyframes cloud1 {
+  from {
+    left: -100px;
+  }
+  to {
+    left: 0;
+  }
+}
+.banner__cloud-2 {
+  position: absolute;
+  width: 120%;
+  bottom: 0;
+  bottom: -95px;
+  animation: cloud2 2s linear alternate infinite;
+  -webkit-animation: cloud2 2s linear alternate infinite;
+}
+@keyframes cloud2 {
+  from {
+    left: 0px;
+  }
+  to {
+    left: -100px;
+  }
+}
+.banner__cloud-3 {
+  position: absolute;
+  width: 120%;
+  bottom: -95px;
+  animation: cloud1 2s linear alternate infinite;
+  -webkit-animation: cloud1 2s linear alternate infinite;
+}
+.banner__rocket {
+  position: absolute;
+  right: -220px;
+  bottom: 0;
+  width: 700px;
+  height: 700px;
+  animation: bannerRocket 5s linear infinite;
+  -webkit-animation: bannerRocket 5s linear infinite;
+}
+@keyframes bannerRocket {
+  5% {
+    right: -210px;
+  }
+  10% {
+    right: -230px;
+    top: 250px;
+  }
+  15% {
+    right: -210px;
+    bottom: 10px;
+  }
+  20% {
+    right: -230px;
+    top: 200px;
+  }
+  30% {
+    top: -100%;
+  }
+}
+.banner__seo-smm-ceo-buttons {
+  display: flex;
+  justify-content: center;
+}
+.banner__seo-smm-ceo-buttons-lists {
+  display: flex;
+  column-gap: 15px;
+}
+.banner__heading {
+  text-align: center;
+  font-size: var(--banner-heading-size);
+  font-family: var(--poppins);
+  margin-top: 20px;
+  color: var(--white-text);
+  position: relative;
+  z-index: 3;
+}
+.banner__paragarph {
+  width: 700px;
+  font-size: var(--white-text);
+  opacity: var(--opacity);
+  font-family: var(--nunito);
+  color: var(--white-text);
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.banner__input_bar {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.banner__items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 0;
+  z-index: 8;
+  position: absolute;
+}
+.banner__item-box {
+  padding: 20px;
+  width: 25%;
+  text-align: center;
+}
+.banner__mini--button {
+  padding: 10px 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  opacity: var(--opacity);
+  border: 1px solid var(--white-text);
+  color: var(--white-text);
+  font-family: var(--nunito);
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+.banner__mini--button:hover {
+  background: var(--white-text);
+  color: rgb(0, 0, 47);
+}

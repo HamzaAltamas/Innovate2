@@ -1,0 +1,28 @@
+:root {
+  --nav-and-buttontext-size: 18px;
+  --white-text: #fff;
+  --ash-text: #29313d87;
+  --para-text-size: 18px;
+  --primary-color: #6a55ea;
+  --banner-heading-size: 64px;
+  --poppins: "Poppins", sans-serif;
+  --nunito: "Nunito", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
+  --button-padding: 14px 28px;
+  --button-radious: 18px;
+  --white-Button-Border: 2px solid #fff;
+  --opacity: 0.5;
+  --section-heading-smalltext: 24px;
+  --section-heading: 40px;
+  --section-heading-color: #29313d;
+  --section-gap: 100px;
+  --heading-to-content-gap: 30px;
+  --paste: #63de9d;
+  --orange: #f8a64c;
+  --paste-light: #e8fcf2;
+  --orange-light: #fef6ec;
+  --violate-light: #f0edff;
+  --sky: #d2eafd;
+  --plan-chart-row-bg: rgba(239, 244, 248, 0.6);
+  --plan-chart-border: 1px solid #d7e6f9;
+}

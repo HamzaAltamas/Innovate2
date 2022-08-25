@@ -1,0 +1,64 @@
+.our-tools {
+  margin-top: var(--section-gap);
+}
+.our-tools-content {
+  display: flex;
+  justify-content: space-between;
+}
+.our-tools__text-illustration {
+  width: 49%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.our-tools__svg {
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+}
+.our-tools__items {
+  padding: 35px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  position: relative;
+}
+
+.our-tools__logo {
+  width: 80px;
+  height: 80px;
+}
+.our-tools_list-items {
+  width: 49%;
+}
+.our-tools__items--margin-top {
+  margin-top: 20px;
+}
+.our-tools__item-text {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  left: 150px;
+}
+
+.our-tools__item-text__heading {
+  font-family: var(--poppins);
+  color: var(--section-heading-color);
+}
+
+.seo-consultancy {
+  background-color: var(--violate-light);
+}
+.competitor-analysis {
+  background-color: var(--orange-light);
+}
+.social-media-marketing {
+  background-color: var(--paste-light);
+}

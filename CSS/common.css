@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* center section heading */
+.center-section-heading {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.section-heading-small-text {
+  font-size: var(--section-heading-smalltext);
+  color: var(--primary-color);
+  font-family: var(--nunito);
+}
+.center-section-heading-text {
+  text-align: center;
+  font-size: var(--section-heading);
+  color: var(--section-heading-color);
+  font-family: var(--poppins);
+  width: 550px;
+  margin-top: 10px;
+  line-height: 140%;
+}
+/* left side heading */
+.left-side-section-heading-text {
+  text-align: left;
+  font-size: var(--section-heading);
+  color: var(--section-heading-color);
+  font-family: var(--poppins);
+  width: 550px;
+  margin-top: 10px;
+  line-height: 140%;
+}
+/* common paragraph */
+.common-paragraph-text {
+  color: var(--section-heading-color);
+  font-family: var(--nunito);
+}
+/* plan chart right and left border */
+
+.border-right {
+  border-right: var(--plan-chart-border);
+}
+.border-left {
+  border-left: var(--plan-chart-border);
+}
+
+/* common input boxes */
+.input-bar {
+  position: relative;
+}
+.input-box {
+  width: 400px;
+  padding: 21px 21px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: none;
+  outline: none;
+}
+.input-box::placeholder {
+  font-family: var(--nunito);
+}
+.input-btn {
+  position: absolute;
+  right: -1px;
+  padding: 19px;
+  padding-bottom: 20px;
+  background-color: var(--primary-color);
+  color: var(--white-text);
+  font-family: var(--nunito);
+  border: none;
+  outline: none;
+  border-radius: 0 20px 20px 0;
+  -webkit-border-radius: 0 20px 20px 0;
+  -moz-border-radius: 0 20px 20px 0;
+  -ms-border-radius: 0 20px 20px 0;
+  -o-border-radius: 0 20px 20px 0;
+}
